@@ -1,4 +1,4 @@
-body  }
+body  {
    font-family: sans-serif;
    background-image:linear-gradient(pink, pink, purple);
 
@@ -6,18 +6,20 @@ body  }
 header {
     background-color: blue;}
     border-bottoM:.2px solid black;
-color
-    front-size: 50px;
-text-align: center;
+
+color{
+
+    font-size: 50px;
+    text-align: center;
 }
-h2}
+h2{
     color: pink;
-    front-size: 40px;
-    text-aling: center;
+    font-size: 40px;
+    text-align: center;
 }
 p{
-    color:rgb(255, 0, 21)
-    font-size: 30px;
+    color:red
+    text-size: 30px;
     text-align: justify;
 }
 .logo{
