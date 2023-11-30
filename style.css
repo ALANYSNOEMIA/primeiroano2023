@@ -4,11 +4,17 @@ body  {
 
 }
 header {
-    background-color: blue;}
-    border-bottoM:.2px solid black;
+    background-color: blue;
+    border-bottom: 2px solid black;
+}
 
-color{
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
 
+}
+h1 { 
+    color: pink;
     font-size: 50px;
     text-align: center;
 }
@@ -18,8 +24,8 @@ h2{
     text-align: center;
 }
 p{
-    color:red
-    text-size: 30px;
+    color:red;
+    font-size: 30px;
     text-align: justify;
 }
 .logo{
@@ -27,10 +33,10 @@ p{
     height: 300px;
     margin: 2px; /*insere um espaçamento externo ao elemento, ao redor da borda*/
     padding: 2px; /*define uma ditancia interna entre um elemento e sua borda*/
-    border: 0.2rem solid #2c3546
-    border-radius: 20px;
-    
+    border: 0.2rem solid #2c3546;
+    border-radius: 20px;    
 }
+
 .fotos {
     width: 500px;
     height: 300px;
@@ -38,3 +44,14 @@ p{
     border: 0.5rem solid #2c3546;
     border-radius: 24px;
 }
+.lista{
+    font-size: 20px;
+    color: aqua;
+    list-style: none;
+}
+
+.item-lista{
+    display: inline-block;
+    justify-content: spare-around;
+    
+}    
